@@ -1,0 +1,49 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #131722;
+  color: #f1f5f9;
+}
+
+.app {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+select,
+button {
+  background: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+}
+
+#status {
+  color: #cbd5e1;
+}
+
+#board {
+  border: 2px solid #475569;
+  background: #0f172a;
+  image-rendering: pixelated;
+  max-width: 100%;
+  display: block;
+}

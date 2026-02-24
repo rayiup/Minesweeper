@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas Minesweeper</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Minesweeper (Canvas)</h1>
+    <section class="controls">
+      <label>
+        Difficulty
+        <select id="difficulty">
+          <option value="easy">Easy (9x9, 10 mines)</option>
+          <option value="medium" selected>Medium (16x16, 40 mines)</option>
+          <option value="hard">Hard (24x20, 99 mines)</option>
+        </select>
+      </label>
+      <button id="newGame" type="button">New Game</button>
+      <span id="status">Left click to reveal, right click to flag.</span>
+    </section>
+    <canvas id="board" width="640" height="640" aria-label="Minesweeper board"></canvas>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
